@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [RegressionSuite]">
+  <test parallel="classes" name="Testing(failed)">
+    <classes>
+      <class name="Tests.getAccountsTest">
+        <methods>
+          <include name="executeWeb"/>
+          <include name="executeAPI"/>
+        </methods>
+      </class> <!-- Tests.getAccountsTest -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
